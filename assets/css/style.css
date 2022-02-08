@@ -14,23 +14,24 @@ body {
 header {
   padding: 20px 35px;
   background-color: #39a6b2;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 header h1 {
   font-weight: bold;
+  margin: 0;
   font-size: 36px;
   color: #fce138;
-  margin: 0;
-  display:inline;
 }
-  
+
 header a {
   text-decoration: none;
   color: #fce138;
 }
 
 header nav {
-  float: right;
   margin: 7px 0;
 }
 
@@ -48,6 +49,7 @@ footer {
   background: #fce138;
   width: 100%;
   padding: 40px 35px;
+  display: flex;
 }
 
 footer h2 {
@@ -78,6 +80,7 @@ section {
   background-size: cover;
   background-position: center;
   position: relative;
+  display: flex;
 }
 
 .hero-form button {
